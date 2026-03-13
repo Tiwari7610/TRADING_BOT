@@ -27,11 +27,13 @@ def place_order(symbol, side, order_type, quantity, price=None):
                 timeInForce="GTC"
             )
 
-        logging.info(f"Order placed: {order}")
+        else:
+            raise ValueError("Invalid order type")
+
+        logging.info(f"Order Response: {order}")
 
         return order
 
     except Exception as e:
-
-        logging.error(f"Order failed: {e}")
-        raise
+        logging.error(f"Order Failed: {str(e)}")
+        print("Order Failed:", e)

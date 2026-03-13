@@ -1,7 +1,7 @@
 from binance.client import Client
 
-API_KEY = "IEmFEqkjCqQXtjMZt7laSsQMtKAsG2OgUK5nR8L2TEjhtb8cdiDP3nSWpr3od5QL"
-API_SECRET = "gVSng6NDv0OdorPkhALfuw39KB0GSmKenAz4DwHHQF3A1U7MlVOhsm76SC3DgMzX"
+API_KEY = "tUG8tdF3ay4DILj9Kpmll2nizDM4Qf5mL0Kalwd4oJQ7vJlJT4IiYALN6HuF5wic"
+API_SECRET = "gDT6LKbBTc0ShquTWHvuTHWAZD2zD5ONn029BwNF06gk5Pj3sCqad41sndUUc69A"
 
 BASE_URL = "https://testnet.binancefuture.com"
 
